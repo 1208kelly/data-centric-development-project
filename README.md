@@ -1,4 +1,6 @@
-# ¡Come Ahorita! - Made in Mexico
+<img src="./images/logo.png" style="margin: 0;">
+
+# ¡Ven a Comer! - Made in Mexico
 
 *One or two paragraphs providing an overview of your project.
 
