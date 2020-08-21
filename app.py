@@ -15,7 +15,8 @@ PA55W0RD = os.environ.get("PA55W0RD")
 
 
 app.config["MONGO_DBNAME"] = 'ven_a_comer'
-app.config["MONGO_URI"] = 'mongodb+srv://U5ERN4ME:PA55W0RD@myfirstcluster1208.14c5g.mongodb.net/ven_a_comer?retryWrites=true&w=majority'
+# app.config["MONGO_URI"] = 'mongodb+srv://U5ERN4ME:PA55W0RD@myfirstcluster1208.14c5g.mongodb.net/ven_a_comer?retryWrites=true&w=majority'
+app.config["MONGO_URI"] = os.environ.get("MONGO_URI")
 
 
 mongo = PyMongo(app)
