@@ -1,9 +1,17 @@
 {% extends 'index.html' %}
 {% block content %}
-
-<div class="container">
-    <img src="/images/logo.png">
+<div class="brand-logo center">
+    <a href="/"><img src="https://a4000c65-a732-4961-b6ba-1a407acd09f0.ws-eu01.gitpod.io/mini-browser/workspace/data-centric-development-project/images/logo.png" alt="ven_a_comer_brand_logo"></a>
 </div>
+<nav>
+    <div class="nav-wrapper">
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+        </ul>
+    </div>
+</nav>
 
 <ul class="collapsible" data-collapsible="accordion">
     {% for recipe in recipes %}
@@ -18,37 +26,99 @@
     {% endfor %}    
 </ul>
 
-<div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+<div class="container">
+     <div class="section">
+        <div class="row">
+            <div class="col s12">
+                <div class="section">
+                    <div class="col s12">
+                        <span class="title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Recently Added Mexican Recipes</font></font></span>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <a href="https://adbeus.com/montreal/verdun/station-verdun-montreal/">
+                                    <img width="305" height="229" src="https://www.mylatinatable.com/wp-content/uploads/2018/04/Tostadas-3.jpg" class="responsive-img wp-post-image" alt="Station W / Verdun, Montreal" title="Station W / Verdun, Montreal" srcset="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg 305w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-300x225.jpg 300w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-768x576.jpg 768w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f.jpg 800w" sizes="(max-width: 305px) 100vw, 305px">    <span class="card-title home"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tostadas</font></font></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <a href="https://adbeus.com/montreal/verdun/station-verdun-montreal/">
+                                    <img width="305" height="229" src="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg" class="responsive-img wp-post-image" alt="Station W / Verdun, Montreal" title="Station W / Verdun, Montreal" srcset="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg 305w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-300x225.jpg 300w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-768x576.jpg 768w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f.jpg 800w" sizes="(max-width: 305px) 100vw, 305px">    <span class="card-title home"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Station W</font></font></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <a href="https://adbeus.com/montreal/verdun/station-verdun-montreal/">
+                                    <img width="305" height="229" src="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg" class="responsive-img wp-post-image" alt="Station W / Verdun, Montreal" title="Station W / Verdun, Montreal" srcset="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg 305w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-300x225.jpg 300w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-768x576.jpg 768w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f.jpg 800w" sizes="(max-width: 305px) 100vw, 305px">    <span class="card-title home"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Station W</font></font></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <a href="https://adbeus.com/montreal/verdun/station-verdun-montreal/">
+                                    <img width="305" height="229" src="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg" class="responsive-img wp-post-image" alt="Station W / Verdun, Montreal" title="Station W / Verdun, Montreal" srcset="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg 305w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-300x225.jpg 300w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-768x576.jpg 768w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f.jpg 800w" sizes="(max-width: 305px) 100vw, 305px">    <span class="card-title home"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Station W</font></font></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <a href="https://adbeus.com/montreal/verdun/station-verdun-montreal/">
+                                    <img width="305" height="229" src="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg" class="responsive-img wp-post-image" alt="Station W / Verdun, Montreal" title="Station W / Verdun, Montreal" srcset="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg 305w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-300x225.jpg 300w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-768x576.jpg 768w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f.jpg 800w" sizes="(max-width: 305px) 100vw, 305px">    <span class="card-title home"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Station W</font></font></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <a href="https://adbeus.com/montreal/verdun/station-verdun-montreal/">
+                                    <img width="305" height="229" src="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg" class="responsive-img wp-post-image" alt="Station W / Verdun, Montreal" title="Station W / Verdun, Montreal" srcset="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg 305w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-300x225.jpg 300w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-768x576.jpg 768w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f.jpg 800w" sizes="(max-width: 305px) 100vw, 305px">    <span class="card-title home"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Station W</font></font></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <a href="https://adbeus.com/montreal/verdun/station-verdun-montreal/">
+                                    <img width="305" height="229" src="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg" class="responsive-img wp-post-image" alt="Station W / Verdun, Montreal" title="Station W / Verdun, Montreal" srcset="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg 305w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-300x225.jpg 300w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-768x576.jpg 768w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f.jpg 800w" sizes="(max-width: 305px) 100vw, 305px">    <span class="card-title home"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Station W</font></font></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <a href="https://adbeus.com/montreal/verdun/station-verdun-montreal/">
+                                    <img width="305" height="229" src="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg" class="responsive-img wp-post-image" alt="Station W / Verdun, Montreal" title="Station W / Verdun, Montreal" srcset="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg 305w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-300x225.jpg 300w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-768x576.jpg 768w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f.jpg 800w" sizes="(max-width: 305px) 100vw, 305px">    <span class="card-title home"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Station W</font></font></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <a href="https://adbeus.com/montreal/verdun/station-verdun-montreal/">
+                                    <img width="305" height="229" src="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg" class="responsive-img wp-post-image" alt="Station W / Verdun, Montreal" title="Station W / Verdun, Montreal" srcset="https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-305x229.jpg 305w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-300x225.jpg 300w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f-768x576.jpg 768w, https://adbeus.com/wp-content/uploads/2016/11/gj2au5opbi17gn5zge2f.jpg 800w" sizes="(max-width: 305px) 100vw, 305px">    <span class="card-title home"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Station W</font></font></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>               
+                </div>
+            </div>
         </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-    </ul>
+    </div>
 </div>
 
 <footer class="page-footer">
