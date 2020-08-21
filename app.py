@@ -6,12 +6,16 @@ from os import path
 if path.exists("env.py"):
     import env
 
+print(os.getenv("MONGO_URI"))
 
 app = Flask(__name__)
 
+U5ERN4ME = os.environ.get("U5ERN4ME")
+PA55W0RD = os.environ.get("PA55W0RD")
+
 
 app.config["MONGO_DBNAME"] = 'ven_a_comer'
-app.config["MONGO_URI"] = 'mongodb+srv://u5erN4me:pa55W0rd@myfirstcluster1208.14c5g.mongodb.net/ven_a_comer?retryWrites=true&w=majority'
+app.config["MONGO_URI"] = 'mongodb+srv://U5ERN4ME:PA55W0RD@myfirstcluster1208.14c5g.mongodb.net/ven_a_comer?retryWrites=true&w=majority'
 
 
 mongo = PyMongo(app)
